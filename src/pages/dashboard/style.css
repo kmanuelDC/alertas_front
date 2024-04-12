@@ -63,9 +63,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
-    z-index: 999; /* Asegúrate de que esté por debajo del modal */
-  }
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Color de fondo semitransparente */
+    z-index: 999;
+    /* Asegúrate de que esté por debajo del modal */
+}
 
 .page-total .bg-white .ModalContent {
     padding: 20px;
