@@ -1,0 +1,37 @@
+.container {
+    width: 20em;
+    height: 100vw;
+    background-color: #EEF0F2;
+
+}
+
+
+
+.container .left-container {
+    margin: 50px 0px 20px 20px;
+}
+
+.container .left-container .tittle {
+    font-weight: bold;
+    color: #4682B4;
+
+}
+
+.container .left-container .filters {
+    margin: 50px 0px 0px 20px;
+}
+
+
+
+.menu-input .select {
+    margin: 3em 0px 0px 0px;
+    width: 230px;
+}
+
+.container .left-container .button-search {
+    margin: 5em 0px 0px 20px;
+    background-color: #4682B4;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+}

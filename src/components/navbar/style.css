@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #4682B4;
+  /* Azul pastel */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  /* padding: 10px 20px; */
+}
+
+.title {
+
+  text-align: center;
+  /* Alinea el texto al centro */
+  flex-grow: 1;
+  /* Hace que el título ocupe el espacio restante */
+  font-family: 'font-family: Arial, sans-serif';
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.title .detail{
+  color: #fff;
+  /* Texto blanco */
+  font-size: 25px;
+  text-align: center;
+  /* Alinea el texto al centro */
+  flex-grow: 1;
+  /* Hace que el título ocupe el espacio restante */
+  font-family: 'font-family: Arial, sans-serif';
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-right: 30px;
+  /* margin-left: 30px; */
+  color: #fff;
+  /* Color blanco para los íconos */
+}
+
+.icon .detail{
+  /* margin-right: 30px; */
+  /* margin-left: 30px; */
+  color: #fff;
+  /* Color blanco para los íconos */
+}
+
+.user-initials {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  /* Fondo blanco para las iniciales */
+  color: #000;
+  /* Texto negro */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 50px 0 30px;
+}
