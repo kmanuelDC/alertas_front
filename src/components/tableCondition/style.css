@@ -1,0 +1,22 @@
+.commponent{
+    margin: 30px 30px 0 80px;
+    width: calc(100vw - 800px);
+}
+
+.commponent .table-conditions {
+    height: calc(100vh - 400px);
+    overflow-y: auto; 
+}
+
+.commponent .table-conditions .container{
+    border-radius: 8px;
+}
+
+.commponent .table-conditions .row-heads{
+    background-color: #9fc3d5;
+}
+
+.commponent .table-conditions .row-heads th{
+    color: white;
+    font-weight: bold;
+}

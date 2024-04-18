@@ -48,7 +48,8 @@ export const ConfigurationPage = () => {
                                 </div>
                             </div>
                             <div className='rigth'>
-                                {buttonSelected[0].selected ? <TableCondition/> : <NewCondition/>}
+                                {buttonSelected[0].selected ? <TableCondition /> : <></>}
+                                {buttonSelected[1].selected ? <NewCondition /> : <></>}
                             </div>
                         </div>
                     </div>
