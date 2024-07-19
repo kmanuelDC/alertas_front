@@ -1,0 +1,153 @@
+.commponent {
+    margin: 30px 30px 0 80px;
+    width: calc(100vw - 700px);
+}
+
+.commponent .conditions {
+    height: calc(100vh - 400px);
+    overflow-y: auto;
+
+}
+
+.commponent .conditions .content {
+    display: flex;
+}
+
+.commponent .conditions .content .content-left {
+    min-width: 300px;
+}
+
+.commponent .conditions .content .form {
+    display: flex;
+    flex-direction: column;
+    color: #055a82;
+    margin: 15px 10px;
+}
+
+.commponent .conditions .content .form .email-item {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    max-width: 280px;
+    border-radius: 10px;
+}
+
+.commponent .conditions .content .form .email-item .text {
+    color: white;
+}
+
+.commponent .conditions .content .form .email-item .button-delete {
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.commponent .conditions .content label {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #797E82;
+    text-transform: uppercase;
+}
+
+.commponent .conditions .content .form .input {
+    border: 0.5px solid #b7bcc0;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    height: 35px;
+    width: 100%;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.commponent .conditions .content .content-rigth {
+    margin: 0px 0px 0px 30px;
+    width: 90%;
+}
+
+.commponent .conditions .content .content-rigth .cabeceras {
+    display: flex;
+    flex-direction: row;
+}
+
+.commponent .conditions .content .content-rigth .cabeceras .content {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+.commponent .conditions .content .content-rigth .cabeceras .tittle-rules {
+    color: #005a64;
+    margin: 0px 0px 20px 0px;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    max-width: 180px;
+    max-height: 40px;
+
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    font-family: Rubik !important;
+    font-style: normal !important;
+    font-weight: 120 !important;
+    font-size: 10px !important;
+    line-height: 15px !important;
+    color: #797E82;
+    text-transform: uppercase;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    max-width: 120px;
+    max-height: 40px;
+}
+
+.css-ke5b6m-MuiButtonBase-root-MuiButton-root {
+    max-width: 120px;
+    max-height: 40px;
+}
+
+.body-conditions {
+    margin: 30px 0 0 0;
+    color: #005a64;
+}
+
+/* .commponent .conditions .content .content-rigth.table-condition-detail table {
+    width: 97% !important;
+}
+
+.commponent .conditions .content .table-condition-detail table>tbody,
+.commponent .conditions .content .table-condition-detail table>thead {
+    width: 100% !important;
+}
+
+.commponent .conditions .content .table-condition-detail table>thead * {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.03em;
+    color: #B7BCC0;
+    align-items: center;
+}
+
+.commponent .conditions .content .table-condition-detail table>tbody * {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.03em;
+    color: black;
+    padding-bottom: 5px;
+    text-align: center;
+} */
