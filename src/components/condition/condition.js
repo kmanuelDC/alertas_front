@@ -87,6 +87,8 @@ export const NewCondition = () => {
                 break;
             case 'logicoperator':
                 setLogicOperator(Number(target.value) === 1 ? 2 : 1)
+                setCondition(prev => ({ ...prev, logica: { ...prev.logica, operator: Number(target.value) === 1 ? 2 : 1 } }))
+                // setConditional(prev => ({ ...prev, logica: { ...prev.logica, operator: Number(target.value) === 1 ? 2 : 1 }}))
                 break;
             default:
                 break;
@@ -148,6 +150,15 @@ export const NewCondition = () => {
         }
         setOpen({ ...open, value: false, message: '' });
     };
+
+    const saveRuleCondition = () =>{
+        if(condition.logica.rules.length>0){
+        dispatch(actions.saveNewRuleConditions(condition, setOpen))
+        setCondition(condition_sch)}
+        else{
+            setOpen({ message: 'REGLAS EN VACIO', value: true, success: false })
+        }
+    }
 
     return (<div className="commponent">
         <div className="conditions">
@@ -226,6 +237,11 @@ export const NewCondition = () => {
                                 }
                             </> : <></>}
                     </div>
+                    <div className='content-buttons'>
+                        <Stack direction="row" spacing={2}>
+                            <Button onClick={saveRuleCondition} style={{ marginLeft: '.5em', borderRadius: '.5em', backgroundColor: '#2E7D32', color: 'white', fontSize: 'bold' }}>SAVE RULE</Button>
+                        </Stack>
+                    </div>
                 </div>
                 <div className="content-rigth">
                     <div className='cabeceras'>
@@ -261,7 +277,7 @@ export const NewCondition = () => {
                                         <MenuItem disabled value={0}>Select</MenuItem>
                                         {operators.map(op => {
                                             return (
-                                                <MenuItem value={op[0]}>{op[2]}</MenuItem>
+                                                <MenuItem key={`key-${op[0]}`} value={op[0]}>{op[2]}</MenuItem>
                                             )
                                         })}
                                     </Select>
@@ -335,10 +351,6 @@ export const NewCondition = () => {
                             </Card>
                         }
                     </div>
-                </div>
-                <div className='content-buttons'>
-                    <Stack direction="row" spacing={2}>
-                    </Stack>
                 </div>
             </div>
         </div>

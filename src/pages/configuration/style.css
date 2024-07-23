@@ -50,7 +50,7 @@
 
 .page-configuration .items-center .body .left {
   margin: 35px 0px 0px 0px;
-  width: 25%;
+  min-width: 200px;
 }
 
 .page-configuration .items-center .body .left :hover {
