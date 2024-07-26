@@ -69,6 +69,7 @@
 .commponent .conditions .content .content-rigth {
     margin: 0px 0px 0px 30px;
     width: 90%;
+    overflow-y: auto;
 }
 
 .commponent .conditions .content .content-rigth .cabeceras {
@@ -83,7 +84,7 @@
 }
 
 .commponent .conditions .content .content-rigth .cabeceras .tittle-rules {
-    color: #005a64;
+    color: #3497a1;
     margin: 0px 0px 20px 0px;
 }
 

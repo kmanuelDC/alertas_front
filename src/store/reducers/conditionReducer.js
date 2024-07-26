@@ -4,7 +4,9 @@ const initialState = {
     fleets: [],
     levels: [],
     parameters: [],
-    operators: []
+    operators: [],
+    conditions: [],
+    condition: null
 }
 
 export const ConditionReducer = (state = initialState, action) => {
@@ -30,6 +32,17 @@ export const ConditionReducer = (state = initialState, action) => {
                 ...state,
                 operators: action.payload
             }
+        case TYPES.getAllConditions:
+            return {
+                ...state,
+                conditions: action.payload
+            }
+        case TYPES.getConditionByID: {
+            return {
+                ...state,
+                condition: action.payload
+            }
+        }
 
         default: return state;
     }

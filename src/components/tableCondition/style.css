@@ -1,22 +1,42 @@
-.commponent{
+.component{
     margin: 30px 30px 0 80px;
     width: calc(100vw - 800px);
 }
 
-.commponent .table-conditions {
+.component .table-conditions {
     height: calc(100vh - 400px);
     overflow-y: auto; 
 }
 
-.commponent .table-conditions .container{
+.component .table-conditions .container{
     border-radius: 8px;
 }
 
-.commponent .table-conditions .row-heads{
-    background-color: #9fc3d5;
+.component .table-conditions .row-heads{
+    background-color: #334c59;
 }
 
-.commponent .table-conditions .row-heads th{
+.component .table-conditions .row-heads th{
     color: white;
     font-weight: bold;
+}
+
+.second-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-line h3 {
+    margin: 0;
+    /* Eliminar márgenes por defecto del encabezado */
+}
+
+.second-line .chip {
+    margin-left: auto;
+    /* Empujar el Chip hacia la derecha */
+}
+
+.conditions{
+    display: block;
 }
