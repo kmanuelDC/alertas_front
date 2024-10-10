@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import './style.css';
 
-export const DateTimeInput = ({ name }) => {
-    const [dateTime, setDateTime] = useState('');
+export const DateTimeInput = ({ name, date, setdate }) => {
+    // const [dateTime, setDateTime] = useState('');
 
     const handleDateTimeChange = (event) => {
-        setDateTime(event.target.value);
+        setdate(event.target.value);
     };
 
     return (
@@ -14,7 +14,7 @@ export const DateTimeInput = ({ name }) => {
         <TextField
             label={name}
             type="datetime-local"
-            value={dateTime}
+            value={date}
             onChange={handleDateTimeChange}
             InputLabelProps={{
                 shrink: true,

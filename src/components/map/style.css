@@ -1,0 +1,34 @@
+.div-legend-style-map-top {
+    z-index: 999 !important;
+    position: absolute !important;
+    left: 2% !important;
+    top: 2% !important;
+    width: 120px !important;
+}
+
+.div-legend-style-map-botton {
+    z-index: 999 !important;
+    position: absolute !important;
+    left: 2% !important;
+    bottom: 5% !important;
+    width: 120px !important;
+}
+
+.div-change-style-map {
+    position: absolute !important;
+    z-index: 999 !important;
+    left: 2% !important;
+    top: 60% !important;
+    width: 65px !important;
+    height: 65px !important;
+    margin-top: 10px;
+}
+
+.div-change-style-map button {
+    height: 65px !important;
+}
+
+img[src*=")marker-icon-2x.png"],
+img[src*=")marker-shadow.png"] {
+    display: none !important;
+}

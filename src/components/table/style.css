@@ -1,5 +1,44 @@
-.table-container{
+.dashboard-page .table-container  {
     background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
+.dashboard-page .table-container >table>thead>tr {
+    background-color: #4682b4;
     border-radius: 25px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5); 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
+.dashboard-page .table-container >table>thead>tr>th {
+    color: white;
+    font-weight: bolder;
+}
+
+.flex-section-bottom .section-rigth {
+    display: flex;
+    margin: 10px 30px 10px 0px;
+    justify-content: flex-end;
+}
+
+.flex-section-bottom .section-rigth .items-buttons .active {
+    background-color: #6e9cc2;
+}
+
+.flex-section-bottom .section-rigth .items-buttons .inactive {
+    background-color: rgb(218, 216, 216);
+}
+
+.flex-section-bottom .section-rigth .items-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-section-bottom .section-rigth .pagination {
+    margin: 10px 40px 0px 0px;
+}
+
+.flex-section-bottom .section-rigth .items-text .text-sm {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
